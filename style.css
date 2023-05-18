@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Mukta:wght@400;600&family=Roboto:wght@100;400;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mainHeading {
+  /* background-image: url(./asset/KT_logo.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: 0px 0px; */
+  /* width: 444.7341px; */
+  position: relative;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.logo {
+  justify-self: center;
+}
+.wrapSmallmainHeadingElements {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: auto; */
+  justify-self: flex-end;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.smallMainHeadingElements {
+  padding: 10px;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0;
+  color: #555555;
+}
+
+.navElement {
+  transition: all 0.2s ease;
+  transform-origin: center;
+}
+.navElement:hover {
+  color: black;
+
+  transform: scale(1.1);
+}
+
+.mainheadingContainer {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.mainContent {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mainColumn {
+  padding: 20px;
+  display: block;
+}
+
+.articleCardSmall {
+  display: flex;
+  font-size: 16px;
+  /* align-items: center; */
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.smallImg {
+  width: 120px;
+}
+
+.articleCardBig {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.smallCardPara {
+  line-height: 22px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #272727;
+  font-family: "Lora", serif;
+}
+
+.smallCardPara:hover,
+.midCardPara:hover,
+.bigCardPara:hover {
+  color: green;
+}
+
+.midCardPara {
+  line-height: 20px;
+  /* padding-left: 10px; */
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #272727;
+  margin-bottom: 20px;
+}
+
+.bigCardPara {
+  font-size: 33px;
+  font-family: "Lora", serif;
+}
+
+.midSpace {
+  padding-left: 10px;
+}
+
+.bigImg,
+.midImg {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.bigImg:hover,
+.midImg:hover {
+  transform: scale(1.1);
+}
+
+.midBox {
+  width: 320px;
+  height: 198px;
+  overflow: hidden;
+}
+
+.bigBox {
+  overflow: hidden;
+  width: 500px;
+  height: 309px;
+}
